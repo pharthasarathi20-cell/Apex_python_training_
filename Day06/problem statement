@@ -1,0 +1,31 @@
+Students =["Arun","Bala","Kavi"]
+New_Students="Ravi"
+Students.append(New_Students)
+print("update Students:",Students)
+
+Students =["Arun","Bala"]
+New_Students="Ravi"
+Students.append(New_Students)
+print("update Students:",Students)
+
+Students =["kavin"]
+New_Students="Mohan"
+Students.append(New_Students)
+print("update Students:",Students)
+
+Students =[]
+New_Students="priya"
+Students.append(New_Students)
+print("update Students:",Students)
+
+Students =["","",""]
+New_Students="priya"
+Students.append(New_Students)
+print("update Students:",Students
+
+output:
+update Students: ['Arun', 'Bala', 'Kavi', 'Ravi']
+update Students: ['Arun', 'Bala', 'Ravi']
+update Students: ['kavin', 'Mohan']
+update Students: ['priya']
+update Students: ['', '', '', 'priya']
